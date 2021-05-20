@@ -1,73 +1,66 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    /* position: relative; */
-}
-#container{
-    /* top:0; */
-    
-    height:100vh;
-    width: 100vw;
-    background: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  
-}
-#nav{
-    /* top:0; */
-    display: flex;
-    background-color:#726b6d ;
-    height:6vh;
-    align-items: center;
-    justify-content:start;
-    position: fixed;
-    width:100vw;
 
+#container {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.list-item{
-     padding: 2vh;
+#nav {
+  display: flex;
+  background-color: #726b6d;
+  height: 8vh;
+  align-items: center;
+  justify-content: start;
+  position: fixed;
+  width: 100vw;
 }
-a{
-    color: white;
-    text-decoration: none;
+.list-item {
+  padding: 2vh;
 }
-#content-box{
-    color: white;
-    text-align: center;
-    word-wrap: break-word;
-    width:80vw;
-    margin-left: 5vw;
-    padding-top:20vh;
+a {
+  color: white;
+  text-decoration: none;
 }
-h1,h2,p{
-    margin-top:30px;
+#content-box {
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
+  width: 80vw;
+  margin-left: 5vw;
+  padding-top: 20vh;
 }
-#music{
-    width: 100vw;
-    background-color: #252529;
-    height:600px;
-    
+h1,
+h2,
+p {
+  margin-top: 30px;
 }
-#music-content{
-    color:white;
- padding-left:12vw;
- padding-top:15vh;
- padding-right: 20vh;
- text-align: center;
- font-size: 2rem;
+#music {
+  width: 100vw;
+  background-color: #252529;
+  height: 600px;
 }
-#btn{
-    background-color: red;
-    color: white;
-    height:90px;
-    text-align: center;
-    margin-top:10vh;
-    margin-left: 40vw;
-    padding:20px;
-    font-size:1.5rem;
-    border:none;
-    
+#music-content {
+  color: white;
+  padding-left: 8vw;
+  padding-top: 15vh;
+  padding-right: 20vh;
+  text-align: center;
+  font-size: 2rem;
+}
+#btn {
+  background-color: red;
+  color: white;
+  height: 90px;
+  text-align: center;
+  margin-top: 10vh;
+  margin-left: 40vw;
+  padding: 20px;
+  font-size: 1.5rem;
+  border: none;
 }
